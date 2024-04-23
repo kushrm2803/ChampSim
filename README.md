@@ -36,8 +36,13 @@ The objective of this project is to reduce conflict misses in the cache by imple
 
 3.  For granting permissions, run for both build_champsim.sh and run_champsim.sh
 
-    chmod +x script.sh             example :     chmod +x build_champsim.sh
-    sed -i -e 's/\r$/\n/' script.sh  example:      sed -i -e 's/\r$/\n/' build_champsim.sh
+    ```
+    chmod +x script.sh                             example :     chmod +x build_champsim.sh
+    ```
+
+    ```
+    sed -i -e 's/\r$/\n/' script.sh                example:      sed -i -e 's/\r$/\n/' build_champsim.sh
+    ```
 
 3. Build the ChampSim simulator:
 
